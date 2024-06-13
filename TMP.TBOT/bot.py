@@ -13,7 +13,7 @@ import handlers
 
 def runner() -> None:
     BOT_TOKEN = '##'
-    # BOT_TOKEN = '6429959419:AAFqkPTJThiUmKWfS19MIsOaj1Np-XQYa-s'
+   
     application = (ApplicationBuilder()
     .token(BOT_TOKEN)
     .arbitrary_callback_data(True)
